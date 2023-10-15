@@ -1,10 +1,19 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+
+import Main from "@/components/Main";
+import A from "@/components/UI/A";
+
+
+ function Home() {
   return (
     <>
-      <h1>Test ABC</h1>
+     <main>
+      Home Page
+      <A message ="Welcome to props!"/>
+     </main>
+
     </>
   )
 }
+
+export default Home;
