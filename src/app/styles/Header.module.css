@@ -1,0 +1,23 @@
+.headerContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoContainer {
+    margin-right: 40px; /* Adjust the margin as needed */
+    margin-left: 40px;
+  }
+  
+  .menuList {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  
+  .menuList li {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  

@@ -1,19 +1,16 @@
 import LeftAside from "@/components/layouts/LeftAside";
 import Main from "@/components/layouts/Main";
-import A from "@/components/UI/A";
+import React from "react";
 
-function Home() {
+export default function page() {
   return (
     <>
       <div className="flex-container p-0">
         <main className="flex-container">
           <LeftAside />
           <Main />
-          
         </main>
       </div>
     </>
   );
 }
-
-export default Home;
