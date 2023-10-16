@@ -12,17 +12,19 @@ header{
 
 main{
   width: 90%;
-  height: 200px;
+  height: 1600px;
   background-color: #ffffff;
   margin: auto;
 }
 
 
 #section_footer{
-  width: 90%;
-  height: 200px;
-  background-color: #ffffff;
-  margin: auto;
-  margin-left: auto;
-  margin-right: auto;
+    position: relative;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+
 }

@@ -1,5 +1,7 @@
 import Link from 'next/link';
-import React from 'react'
+import React from 'react';
+
+
 
 function Footer() {
   
@@ -10,7 +12,7 @@ function Footer() {
           
           
             <div id="section_footer">
-              <div className='text-center py-4'>
+              
                 <Link href="https://google.com" target="_blank" className='btn btn-link'>
                   Privacy
                 </Link>
@@ -22,8 +24,8 @@ function Footer() {
                 <Link href="mailto:Roads<rana@tansenberg.com>" className='btn btn-link'>
                   Contact
                 </Link>
-                <p>Copyright © {current_year}, Tansenberg LLC. All Rights Reserved.</p>
-              </div>
+                <p>Copyright © {current_year} Tansenberg LLC. All Rights Reserved.</p>
+              
             </div>
           );
         }
